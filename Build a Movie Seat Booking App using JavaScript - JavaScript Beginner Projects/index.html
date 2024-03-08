@@ -4,18 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Targyaló foglaló</title>
+    <title>Mozi foglaló oldal</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="movie-container">
-        <label>Válasz irodát</label>
+        <label>Válasz filmet:</label>
         <select id="movie">
-            <option value="11">Tárgyaló</option>
-            <option value="22">IT</option>
-            <option value="33">Mesterlevél</option>
-            <option value="44">Szimfónia</option>
+            <option value="11">Joker</option>
+            <option value="22">Gotti</option>
+            <option value="33">WHOAMI</option>
+            <option value="44">The Wall Street Wolf</option>
         </select>
     </div>
 
@@ -27,12 +27,12 @@
 
         <li>
             <div class="seat selected"></div>
-            <small>Selected</small>
+            <small>Kiválaszott</small>
         </li>
 
         <li>
             <div class="seat occupied"></div>
-            <small>Occupied</small>
+            <small>Foglalt</small>
         </li>
     </ul>
 
@@ -96,7 +96,7 @@
 
     </div>
     <p class="text">
-        You have selected <span id="count">0</span> seats for a price of $<span id="total">0</span>
+        Kiválasztottál <span id="count">0</span> helyett, aminek az ára <span id="total">0</span> Forint.
     </p>
     <script src="script.js"></script>
 </body>
